@@ -576,10 +576,11 @@ tariff
 	margin-left: 23px;
 }
 .tariff_standart{
- margin-top: 57px;
+ 	margin-top: 57px;
+ 	margin-bottom: 30px;
 }
 .tariff_lux{
- margin-top: 77px;
+	 margin-top: 77px;
 }
 .tariff_mail {
 		display: flex;
@@ -588,20 +589,45 @@ tariff
 	width: 32%;
 	background-color: #fff;
 	margin-right: 31px;
-	margin-bottom: 49px;
+	padding-bottom: 49px;
 }
  .h4{
+ 	margin:41px 0 47px 0;
 	text-align: center;
+	color: black;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+ }
+ .h4_big{
+ 	margin:49px 0 49px 0;
+ 	font-size: 20px;	
  }
  .tariff_galary_section{
 	display: block;
 	color: #676767;
 	font-size: 18px;
 	font-weight: 300;
+	margin: 36px 0 36px 29px;
  }
  .sndrt{
 	font-size: 20px;
 	font-weight: 300;
+ }
+ .icon_followers{
+ 	background-image: url(pic/icon_followers.png);
+ }
+ .icon_support{
+ 	background-image: url(pic/icon_support.png);
+ }
+ .icon_post{
+ 	background-image: url(pic/icon_post.png);
+ }
+ .icon_tarif_setting{
+ 	background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding-left: 45px;
+   
  }
  #circle {
 		width: 120px;
@@ -618,7 +644,30 @@ tariff
 	width: 75%;
 	font-size: 23px;
 	font-weight: 700;
+
  }
+ .tariff_order{
+ 	color: #FFF;
+	background-color: #ff6f56;
+	border-radius: 5px;
+	box-shadow: 0 3px 2px rgba(222, 83, 58, 0.74);
+	margin-bottom: 35px;
+	font-size: 25px;
+	}
+.tarif_price{
+	display: block;
+    text-align: center;
+	font-size: 27px;
+	font-weight: 700;
+	margin-bottom: 34px;
+}	
+.tarif_price_big{
+	display: block;
+    text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	margin-bottom: 46px;
+}	
 
 /*****************************************************************
 end of tariff
@@ -680,9 +729,6 @@ margin-left: 55px;
 	display: inline-block;
 	margin-left: 32px;
 }
-
-
-
 
 .slide_control {
   position: absolute;
